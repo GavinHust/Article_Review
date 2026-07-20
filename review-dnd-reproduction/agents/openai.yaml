@@ -1,0 +1,4 @@
+interface:
+  display_name: "DND 论文复现审查"
+  short_description: "深度审查 DND 模型、数据、实验、理解与复现质量"
+  default_prompt: "使用 $review-dnd-reproduction 深度审查这个 DND 复现代码，逐层对照模型维度、激活和损失，并评价数据、标签、baseline、结果、优缺点、理解与 AI 生成风险。"
